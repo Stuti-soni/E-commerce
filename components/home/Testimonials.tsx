@@ -54,7 +54,7 @@ export default function Testimonials() {
                   <Star key={j} className="w-4 h-4 fill-amber-400 text-amber-400" />
                 ))}
               </div>
-              <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed flex-1">"{r.text}"</p>
+              <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed flex-1">&ldquo;{r.text}&rdquo;</p>
             </div>
           </AnimatedSection>
         ))}

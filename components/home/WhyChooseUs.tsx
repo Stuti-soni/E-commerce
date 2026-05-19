@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
       <AnimatedSection className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why NovaBuy?</h2>
         <p className="text-slate-500 dark:text-slate-400 max-w-md mx-auto">
-          We obsess over the details so you don't have to.
+          We obsess over the details so you don&apos;t have to.
         </p>
       </AnimatedSection>
 

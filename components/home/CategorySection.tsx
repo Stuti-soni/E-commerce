@@ -54,7 +54,7 @@ export default function CategorySection() {
       <AnimatedSection className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">Shop by Category</h2>
         <p className="text-slate-500 dark:text-slate-400 max-w-md mx-auto">
-          Find exactly what you're looking for across our curated collections.
+          Find exactly what you&apos;re looking for across our curated collections.
         </p>
       </AnimatedSection>
 

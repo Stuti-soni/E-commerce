@@ -11,13 +11,13 @@ export default function SuccessHandler() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    if (params.get('success') === 'true') {
+    if (params?.get('success') === 'true') {
       clearCart();
       setShow(true);
       const t = setTimeout(() => setShow(false), 5000);
       return () => clearTimeout(t);
     }
-  }, [params]);
+  }, [params, clearCart]);
 
   if (!show) return null;
   return <SuccessAnimation />;

@@ -39,7 +39,7 @@ export default function AIRecommendations({ productId }: Props) {
         </div>
         <div>
           <h2 className="text-2xl font-bold">AI Picks For You</h2>
-          <p className="text-sm text-slate-500 dark:text-slate-400">Recommended by Gemini based on what you're viewing</p>
+          <p className="text-sm text-slate-500 dark:text-slate-400">Recommended by Gemini based on what you&apos;re viewing</p>
         </div>
       </div>
 
