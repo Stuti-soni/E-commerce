@@ -16,7 +16,7 @@ export default function EmptyCart() {
       </div>
       <h2 className="text-2xl font-bold mb-2">Your cart is empty</h2>
       <p className="text-slate-500 dark:text-slate-400 mb-8 max-w-xs">
-        Looks like you haven't added anything yet. Start browsing our collection.
+        Looks like you haven&apos;t added anything yet. Start browsing our collection.
       </p>
       <Link href="/">
         <motion.button

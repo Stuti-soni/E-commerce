@@ -230,7 +230,7 @@ export default function ProfilePage() {
             <div className="text-center py-20 text-slate-400">
               <ShoppingBag className="w-16 h-16 mx-auto mb-4 opacity-20" />
               <h3 className="text-lg font-semibold mb-2">No orders yet</h3>
-              <p className="text-sm mb-4">Looks like you haven't placed any orders.</p>
+              <p className="text-sm mb-4">Looks like you haven&apos;t placed any orders.</p>
               <Link href="/" className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl gradient-brand text-white font-semibold text-sm">
                 Start Shopping
               </Link>

@@ -5,7 +5,7 @@ import { initMongoose } from '@/lib/mongoose';
 import Order from '@/models/Order';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const session = await getServerSession(req, res, authOptions);
+  const session = await getServerSession(req, res, authOptions) as { user?: { email?: string } } | null;
   if (!session) return res.status(401).json({ error: 'Unauthorized' });
 
   await initMongoose();

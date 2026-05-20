@@ -18,7 +18,7 @@ export default function CheckoutPage() {
   const [city, setCity] = useState('');
 
   useEffect(() => {
-    const uniqIds = [...new Set(selectedProducts)];
+    const uniqIds = Array.from(new Set(selectedProducts));
     if (!uniqIds.length) { setProducts([]); return; }
     fetch('/api/products?ids=' + uniqIds.join(','))
       .then(r => r.json())

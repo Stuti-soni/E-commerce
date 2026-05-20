@@ -8,11 +8,11 @@ import { Zap } from 'lucide-react';
 function PayContent() {
   const router = useRouter();
   const params = useSearchParams();
-  const order_id = params.get('order_id');
-  const amount = params.get('amount');
-  const name = params.get('name') ?? '';
-  const email = params.get('email') ?? '';
-  const db_order_id = params.get('db_order_id') ?? '';
+  const order_id = params?.get('order_id');
+  const amount = params?.get('amount');
+  const name = params?.get('name') ?? '';
+  const email = params?.get('email') ?? '';
+  const db_order_id = params?.get('db_order_id') ?? '';
 
   useEffect(() => {
     if (!order_id) return;
